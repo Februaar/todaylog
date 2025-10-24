@@ -1,6 +1,6 @@
 export default function LogForm() {
   return (
-    <form className="w-full flex flex-col h-[500px]">
+    <form className="w-full flex flex-col">
       <input
         type="text"
         placeholder="오늘에 제목을 붙여보세요"

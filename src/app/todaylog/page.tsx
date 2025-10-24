@@ -1,16 +1,16 @@
-import LogCard from "@/features/todaylog/components/LogCard";
+import LogImage from "@/features/todaylog/components/LogImage";
 import LogForm from "@/features/todaylog/components/LogForm";
 
 export default function TodayLog() {
   return (
-    <section className="w-full flex flex-col border space-y-6 py-8 px-4">
+    <section className="w-full flex flex-col space-y-6 py-8 px-4">
       <button>뒤로가기</button>
       <div className="">
         <h2>2025</h2>
-        <p className="text-lg">10.22</p>
+        <p className="text-xl">10.22</p>
       </div>
-      <div className="flex flex-col gap-4 sm:flex-row">
-        <div className="w-full">사진업로드</div>
+      <div className="flex flex-col gap-4 h-[500px] sm:flex-row">
+        <LogImage />
         <LogForm />
       </div>
     </section>
