@@ -4,13 +4,13 @@ export default function LogForm() {
       <input
         type="text"
         placeholder="오늘에 제목을 붙여보세요"
-        className="p-4"
+        className="py-4 px-6"
       />
       <textarea
-        placeholder="오늘을 자유롭게 기록해보세요"
-        className="w-[400px] flex-1 rounded-xl bg-gray-100 p-4"
+        placeholder="오늘을 기록해보세요"
+        className="w-[400px] flex-1 rounded-xl bg-gray-100 py-4 px-6 "
       />
-      <button className="p-4">기록하기</button>
+      <button className="p-4 text-sm">기록하기</button>
     </form>
   );
 }
